@@ -48,9 +48,8 @@
 							</div>
 							<div class="fh5co-text">
 								<h3>Linux</h3>
-								<p>Amazon Linux 2を利用中。インスタンスタイプは無料のt2.micro。<br>
-									Webサーバとして慣れ親しんだApacheを起動させてます
-								</p>
+                                <p>Amazon Linux 2（amzn2-ami-hvm-2.0.20201126.0-x86_64-gp2）を利用中<br>
+                                Dockerの中でApache2 (Debian)をWebサーバとして起動中。</p>
 							</div>
 						</div>
 					</div>
@@ -74,7 +73,7 @@
 							</div>
 							<div class="fh5co-text">
 								<h3>Framework</h3>
-								<p>私的トレンドなLarabelを利用。Version 7</p>
+								<p>私的トレンドなLarabelを利用。Version 8</p>
 							</div>
 						</div>
 					</div>
@@ -109,7 +108,7 @@
 							</div>
 							<div class="fh5co-text">
 								<h3>Front</h3>
-								<p>Bootstrap3とHTMLテンプレートを利用。<br />Node.jsとwebpackを利用したコンパイル形式も後々やってみたい！</p>
+								<p>Bootstrap3とHTMLテンプレートを利用。<br />（Node.jsとwebpackを利用したコンパイル形式も後々やってみたい！）</p>
 							</div>
 						</div>
 					</div>
