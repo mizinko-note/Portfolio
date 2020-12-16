@@ -19,6 +19,6 @@ class BlogController extends Controller
     public function index(){
         // 左メニュー選択 active
         $blog = true;
-        return view('welcome',compact('blog'));
+        return view('blog',compact('blog'));
     }
 }
