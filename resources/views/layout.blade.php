@@ -50,8 +50,8 @@
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
      				<li class="{{ isset($home) ? 'fh5co-active' : ''}}"><a href="{{ route('home') }} ">Home</a></li>
-					<!--<li class="{{ isset($profile) ? 'fh5co-active' : ''}}"><a href="{{ route('profile') }} ">Profile</a></li>-->
-					<!--<li class="{{ isset($jobCareer) ? 'fh5co-active' : ''}}"><a href="{{ route('jobcareer') }}">JobCareer</a></li>-->
+					<li class="{{ isset($service) ? 'fh5co-active' : ''}}"><a href="{{ route('service') }} ">Service</a></li>
+					<li class="{{ isset($blog) ? 'fh5co-active' : ''}}"><a href="{{ route('blog') }}">Blog</a></li>
 				</ul>
 			</nav>
 
