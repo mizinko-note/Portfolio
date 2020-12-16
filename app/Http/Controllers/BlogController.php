@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
     /**
-     * Portfolio用、Profile用 Controller
+     * Portfolio用、Blog用 Controller
      * @author mizinko
      */
 
-class ProfileController extends Controller
+class BlogController extends Controller
 {
     /**
      * Topページ、初期表示
@@ -18,7 +18,7 @@ class ProfileController extends Controller
      */
     public function index(){
         // 左メニュー選択 active
-        $profile = true;
-        return view('welcome',compact('profile'));
+        $blog = true;
+        return view('welcome',compact('blog'));
     }
 }

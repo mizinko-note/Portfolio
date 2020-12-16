@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeTopController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\JobCareerController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +20,8 @@ use App\Http\Controllers\JobCareerController;
 Route::get('/', [WelcomeTopController::class,'index'])->name('home');
 Route::get('/index', [WelcomeTopController::class,'index']);
 
-/** プロフィール */
-Route::get('/profile', [ProfileController::class,'index'])->name('profile');
+/** サービス */
+Route::get('/service', [ServiceController::class,'index'])->name('service');
 
-/** ジョブキャリア */
-Route::get('/jobcareer', [JobCareerController::class,'index'])->name('jobcareer');
+/** Blog */
+Route::get('/blog', [BlogController::class,'index'])->name('blog');

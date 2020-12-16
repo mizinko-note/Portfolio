@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
     /**
-     * Portfolio用、JobCareer用 Controller
+     * Portfolio用、Service用 Controller
      * @author mizinko
      */
 
-class JobCareerController extends Controller
+class ServiceController extends Controller
 {
     /**
      * Topページ、初期表示
@@ -18,7 +18,7 @@ class JobCareerController extends Controller
      */
     public function index(){
         // 左メニュー選択 active
-        $jobCareer = true;
-        return view('welcome',compact('jobCareer'));
+        $service = true;
+        return view('welcome',compact('service'));
     }
 }
