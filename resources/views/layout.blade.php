@@ -58,7 +58,6 @@
 			<div class="fh5co-footer">
 				<p><small>&copy; 2016 Blend Free HTML5. All Rights Reserved.</span> <span>Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></span></small></p>
 				<ul>
-					<li><a href="https://twitter.com/mizinko_note" target="_blank"><i class="icon-twitter2"></i></a></li>
 					<li><a href="https://github.com/saito-r" target="_blank"><i class="icon-github"></i></a></li>
 				</ul>
 			</div>
