@@ -19,6 +19,6 @@ class ServiceController extends Controller
     public function index(){
         // 左メニュー選択 active
         $service = true;
-        return view('welcome',compact('service'));
+        return view('service',compact('service'));
     }
 }
